@@ -1,11 +1,55 @@
-.gap {
-    padding-top: 150px;
+body {
+    background-color: white !important;
+    font-family: 'Playfair Display', serif !important;
 }
-h2 {
+#brand {
   padding-top: 150px;
-  font-family: 'Playfair Display', serif;
   color: white;
 }
+#scroll-target {
+    padding-top: 130px;
+}
+.fa-sort-down {
+    font-size: 70px;
+    color: #47796c;
+}
+#contact {
+    height: 250px;
+    background-color: #f1f2f2 !important;
+}
+.size {
+    background-color: #f1f2f2 !important;
+}
+.space {
+    height: 205px
+}
+.highlight {
+    transition: all .2s ease-in-out;
+}
+.footer {
+    background-color: #ecd5e6 !important;
+}
+.highlight:hover {
+    background-color: #f1f2f2 !important;
+    transform: scale(1.1);
+}
+.btn-colour-1 {
+    color: #fff !important;
+    background-color: #47796c !important;
+    border-color: #47796c!important;
+    letter-spacing: 0.05em !important;
+    border-radius: 5% !important;
+  }
+  
+  .btn-colour-1:hover,
+  .btn-colour-1:active,
+  .btn-colour-1:focus,
+  .btn-colour-1.active {
+    /* let's darken #004E64 a bit for hover effect */
+    background: #5e9788 !important;
+    color: #ffffff !important;
+    border-color: #5e9788 !important;
+  }
 
 #learn-more {
     padding-top: 400px;
@@ -18,5 +62,5 @@ h2 {
 }
 #profile {
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
 }

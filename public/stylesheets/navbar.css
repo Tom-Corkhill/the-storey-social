@@ -2,26 +2,32 @@
   background-color: #ecd5e6!important;
   font-family: 'Playfair Display', serif;
 }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: #5e9788 !important;
+}
 .social {
   color: white;
   font-size: 22px;
   margin: 0;
 }
 .home {
-  color: #5e9788;
+  color: #47796c !important;
   font-size: 18px;
   margin: auto 2px;
 }
 .home:hover {
-  color: #94d0c0;
+  color: #5e9788 !important;
 }
 .heading {
-  color: white;
+  color: white !important;
   font-size: 18px;
   margin: auto 2px;
 }
 .heading:hover {
-  color: #5e9788;
+  color: #5e9788 !important;
 }
 .fab {
   color: white;
