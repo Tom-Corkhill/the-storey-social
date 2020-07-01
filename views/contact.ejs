@@ -1,5 +1,15 @@
 <%- include ("./partials/header") %>
 
-<h1>THIS IS THE contact PAGE</h1>
+
+<div class="container top-gap"> 
+<h1>Contact me today</h1>
+
+    <form action="/contact/formProcess" method="POST">
+        <input class="d-block" type="text" name="name" placeholder="Name">
+        <input class="d-block" type="email" name="email" placeholder="email">
+        <textarea class="d-block" name="message" rows="10" cols="30" placeholder="Enter message here"></textarea>
+        <button class="d-block">Send Email</button>
+    </form>
+</div>
 
 <%- include ("./partials/footer") %>
