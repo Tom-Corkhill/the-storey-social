@@ -1,0 +1,23 @@
+body {
+    background-color: white !important;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.pic-logo {
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.highlight-const {
+    background-color: #efefef;
+}
+.experience-box-top {
+    height: 80px;
+}
+.title {
+    margin-top: 50px;
+}
+.top-gap {
+    margin-top: 170px;
+}

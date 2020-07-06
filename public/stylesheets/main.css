@@ -78,14 +78,17 @@ body {
     margin-top: 5px;
 }
 
-/* experience route */
-.pic-logo {
-    width: 80%;
-    border-radius: 50%;
-}
-#pic-logo-1 {
-    width: 90%;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /* services route */
 .line-left {
@@ -101,7 +104,4 @@ body {
 .service-box {
     height: 250px;
     margin-top: 50px;
-}
-p {
-    font-size: 20px;
 }
