@@ -2,14 +2,23 @@
 
 
 <div class="container top-gap"> 
-<h1>Contact me today</h1>
+    <h1 class="text-center">Get In Touch</h1>
+    <p class="text-center mt-5">Some kind of text to go here???</p>
+</div>
+<div class="container d-flex justify-content-around">
+    <div class="shadow mt-5">
+        <form action="/contact/formProcess" method="POST">
+            <input id="name" class="d-block" type="text" name="name" placeholder="Name">
+            <input id="email" class="d-block" type="email" name="email" placeholder="Email">
+            <textarea id="message" class="d-block" name="message" rows="10" cols="30" placeholder="Message"></textarea>
+            <button class="d-block btn btn-xl btn-custom-contact">Send Message!</button>
+        </form>
+    </div>
 
-    <form action="/contact/formProcess" method="POST">
-        <input class="d-block" type="text" name="name" placeholder="Name">
-        <input class="d-block" type="email" name="email" placeholder="email">
-        <textarea class="d-block" name="message" rows="10" cols="30" placeholder="Enter message here"></textarea>
-        <button class="d-block">Send Email</button>
-    </form>
+    <div>
+        <h3 class="other">Other ways to contact me</h3>
+        <hr>
+    </div>
 </div>
 
 <%- include ("./partials/footer") %>

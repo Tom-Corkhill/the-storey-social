@@ -72,15 +72,42 @@ body {
 
 /* CONTACT ROUTE */
 .top-gap {
-    margin-top: 170px;
+    padding-top: 170px;
 }
 .d-block {
-    margin-top: 5px;
+    margin: auto;
+    width: 450px;
+    border: 1px solid #d0d5d8;
+    border-radius: 1%;
+    padding: 10px;
+}
+#name {
+    height: 50px;
+}
+#email {
+    margin-top: 20px;
+    height: 50px;
 }
 
-
-
-
+#message {
+    margin-top: 20px;
+    height: 170px;
+}
+.btn-custom-contact {
+    background-color: #ecd5e6 !important;
+    margin-top: 40px;
+    height: 50px;
+}
+.shadow {
+    box-shadow: 5px 5px 5px 5px #efefef;
+    padding: 40px;
+    padding-right: 492px !important;
+    width: 500px;
+    margin: auto;
+}
+.other {
+    margin-top: 170px;
+}
 
 
 
@@ -104,4 +131,7 @@ body {
 .service-box {
     height: 250px;
     margin-top: 50px;
+}
+.fill {
+    background-color: #efefef;
 }
