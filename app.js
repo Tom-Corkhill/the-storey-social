@@ -8,13 +8,12 @@ let express           = require("express"),
 // app config
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')))
 
 // ROUTES
 
 app.get("/", function(req, res){
     res.render("home");
-    console.log(NODEMAILER_PASS_STOREYSOCIAL_1);
 });
 
 app.get("/about", function(req, res){
@@ -45,7 +44,7 @@ app.post("/contact/formProcess", function(req, res){
         let info = await transporter.sendMail({
         from: '"Automated contact email" <tjcorkhillsender@outlook.com>', 
         to: "tjcorkhill@gmail.com",
-        subject: "Testing", 
+        subject: "Storey Social Contact Me", 
         text:  "Name: " + name + " \nEmail: " + email + " \nMessage: " + message 
         });
     }
