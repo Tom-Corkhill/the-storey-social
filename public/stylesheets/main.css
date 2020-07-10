@@ -10,7 +10,7 @@ body {
   color: white;
 }
 #scroll-target {
-    padding-top: 130px;
+    padding-top: 90px;
 }
 .fa-sort-down {
     font-size: 70px;
@@ -26,48 +26,56 @@ body {
 .space {
     height: 205px
 }
-.highlight {
-    transition: all .2s ease-in-out;
-}
 .footer {
     background-color: #ecd5e6 !important;
 }
+
+.main-heading {
+    padding-top: 700px;
+}
+.highlight {
+    box-shadow: 5px 5px 5px 5px #efefef;
+    transition: all .2s ease-in-out;
+    border-radius: 1%;
+}
 .highlight:hover {
-    background-color: #f1f2f2 !important;
     transform: scale(1.1);
 }
-.btn-colour-1 {
-    color: #fff !important;
-    background-color: #47796c !important;
-    border-color: #47796c!important;
-    letter-spacing: 0.05em !important;
-    border-radius: 5% !important;
-  }
-  
-  .btn-colour-1:hover,
-  .btn-colour-1:active,
-  .btn-colour-1:focus,
-  .btn-colour-1.active {
-    /* let's darken #004E64 a bit for hover effect */
-    background: #5e9788 !important;
-    color: #ffffff !important;
-    border-color: #5e9788 !important;
-  }
-
 #learn-more {
     padding-top: 400px;
-}
+} 
 #cover {
-    background-image: url(https://images.unsplash.com/photo-1501075194766-25dad883d9ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1379&q=80);
-    background-size: cover;
+    background-image: url('../images/ssBackground.png');
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
+    height: 960px;
 }
 #profile {
     border-radius: 50%;
     width: 90%;
 }
-
+.icon-box {
+    width: 100%;
+}
+#links {
+    height: 500px
+}
+.gap {
+    padding-top: 110px;
+}
+.anchor {
+    color: black;
+}
+.anchor:hover {
+    color: black;
+    text-decoration: none !important; 
+}
+.fa-chevron-circle-down {
+    font-size: 80px;
+    color: #47796c;
+}
 
 
 /* CONTACT ROUTE */
@@ -81,25 +89,17 @@ body {
     border-radius: 1%;
     padding: 10px;
 }
-#name {
-    height: 50px;
-}
-#email {
-    margin-top: 20px;
-    height: 50px;
-}
-
-#message {
-    margin-top: 20px;
-    height: 170px;
-}
 .btn-custom-contact {
     background-color: #ecd5e6 !important;
     margin-top: 40px;
     height: 50px;
 }
+.btn-custom-contact:hover {
+    background-color: #e8badc !important;
+}
 .shadow {
     box-shadow: 5px 5px 5px 5px #efefef;
+    border: 1px solid rgba(236, 213, 230, 0.3);
     padding: 40px;
     padding-right: 492px !important;
     width: 500px;
@@ -108,9 +108,29 @@ body {
 .other {
     margin-top: 170px;
 }
+.twitter {
+    font-size: 50px;
+    color: #47796c;
+}
+.in {
+    font-size: 50px;
+    color: #ecd5e6 !important;
+}
 
-
-
+#name {
+    height: 50px;
+}
+#email {
+    margin-top: 20px;
+    height: 50px;
+}
+#message {
+    margin-top: 20px;
+    height: 170px;
+}
+#safe {
+    display: none;
+}
 
 
 
@@ -119,19 +139,26 @@ body {
 
 /* services route */
 .line-left {
-    border-left: solid 2px #47796c;
-    background-color: #ecd5e6;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
-}
-.line-right {
-    border-right: solid 2px #47796c;
-    background-color: #ecd5e6;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 5px #efefef;
+    border: 1px solid rgba(236, 213, 230, 0.5);
 }
 .service-box {
-    height: 250px;
-    margin-top: 50px;
+    margin-top: 45px;
 }
-.fill {
-    background-color: #efefef;
+.service-icon {
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* about me route */
+#headshot {
+    width: 100%;
+    border-radius: 50%;
 }

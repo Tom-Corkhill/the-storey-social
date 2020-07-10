@@ -29,7 +29,8 @@ app.post("/contact/formProcess", function(req, res){
     async function main() {
         let name = req.body.name;
         let email = req.body.email;
-        let message = req.body.message;
+        let message = req.body.message; 
+        let age = req.body.age;
 
         let transporter = nodemailer.createTransport({
         host: "smtp.outlook.com",
@@ -43,9 +44,9 @@ app.post("/contact/formProcess", function(req, res){
 
         let info = await transporter.sendMail({
         from: '"Automated contact email" <tjcorkhillsender@outlook.com>', 
-        to: "tjcorkhill@gmail.com",
+        to: "thestoreysocial@hotmail.com",
         subject: "Storey Social Contact Me", 
-        text:  "Name: " + name + " \nEmail: " + email + " \nMessage: " + message 
+        text:  "Name: " + name + " \nEmail: " + email + " \nMessage: " + message + " \nIf there is a number here then I am spam: " + age
         });
     }
     main().catch(console.error);
@@ -68,6 +69,5 @@ app.get("/experience", function(req, res){
 
 
 app.listen(process.env.PORT || 5000);
-// app.listen(3000, function(req, res){
-//     console.log("Server Running");
-// });
+
+// app.listen(3000, function(req, res){});
