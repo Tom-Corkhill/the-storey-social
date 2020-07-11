@@ -45,7 +45,7 @@ body {
     padding-top: 400px;
 } 
 #cover {
-    background-image: url('../images/ssBackground.png');
+    background-image: url('../images/Home/ssBackground.png');
     background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
