@@ -106,7 +106,7 @@ body {
     }
     .anchor {
         width: 270px;
-        margin-left: 100px !important;
+        margin-left: 50px !important;
         padding: 0 !important;
     }
     #footer {
@@ -120,5 +120,8 @@ body {
     }
     #profile {
         margin-bottom: 40px;
+    }
+    .arrow {
+        margin-top: 100px;
     }
 }
