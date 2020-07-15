@@ -63,14 +63,14 @@ body {
     margin-left: 350px;
     height: 150px;
 }
-
+ 
 
 @media only screen and (max-width: 991px) {
     .shadow {
         box-shadow: 5px 5px 5px 5px #efefef;
         border: 1px solid rgba(236, 213, 230, 0.3);
         padding: 10px;
-        width: 450px;
+        width: 350px;
         margin: auto;
         padding-right: 10px !important;
         padding-top: 25px;
@@ -78,7 +78,7 @@ body {
     }
     .d-block {
         margin: auto;
-        width: 400px;
+        width: 300px;
         border: 1px solid #d0d5d8;
         border-radius: 1%;
         padding: 10px;
@@ -109,10 +109,10 @@ body {
 
 @media only screen and (max-width: 599px) {
     .twitter {
-        font-size: 35px;
+        font-size: 30px;
     }   
     .in {
-        font-size: 35px;
+        font-size: 30px;
     }
     .icons {
         margin-left: 65px;
