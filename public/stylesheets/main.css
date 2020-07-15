@@ -6,8 +6,8 @@ body {
     font-family: 'Playfair Display', serif !important;
 }
 #brand {
-  padding-top: 150px;
-  color: white;
+    padding-top: 150px;
+    color: white;
 }
 #scroll-target {
     padding-top: 125px;
@@ -122,6 +122,9 @@ body {
         margin-bottom: 40px;
     }
     .arrow {
-        margin-top: 100px;
+        margin-top: 65px;
+    }
+    .black {
+        font-size: 25px;
     }
 }
