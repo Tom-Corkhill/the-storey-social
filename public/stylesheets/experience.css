@@ -50,4 +50,12 @@ body {
     .spacing {
         margin-bottom: 20px;
     }
+    .pic-logo {
+        width: 100px;
+        height: 100px;
+    }
+    .pic-logo-1 {
+        width: 100px;
+        height: 100px;
+    }
 }
