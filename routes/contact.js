@@ -1,5 +1,6 @@
-var express = require("express"),
-    router  = express.Router();
+var express     = require("express"),
+    nodemailer  = require("nodemailer"),
+    router      = express.Router();
 
 
 // Contact route with nodemailer code

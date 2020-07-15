@@ -22,4 +22,9 @@ router.get("/experience", function(req, res){
     res.render("experience");
 });
 
+// Features page
+router.get("/features", function(req, res){
+    res.render("features");
+});
+
 module.exports = router; 

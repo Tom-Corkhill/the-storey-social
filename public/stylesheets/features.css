@@ -1,0 +1,35 @@
+body {
+    font-family: 'Playfair Display', serif !important;
+}
+.top-gap {
+    padding-top: 170px;
+}
+.title {
+    font-weight: 700;
+}
+.box {
+    margin-top: 30px;
+    height: 40px;
+    width: 60%;
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px #efefef;
+    border: 1px solid rgba(236, 213, 230, 0.3);
+    border-radius: 1%;
+    transition: all .2s ease-in-out;
+}
+.box:hover {
+    background-color: #efefef;
+}
+hr {
+    width: 15%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .box {
+        height: 70px;
+    }
+}

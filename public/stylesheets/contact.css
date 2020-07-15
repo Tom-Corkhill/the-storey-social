@@ -1,0 +1,120 @@
+body {
+    font-family: 'Playfair Display', serif !important;
+}
+.top-gap {
+    padding-top: 170px;
+}
+.d-block {
+    margin: auto;
+    width: 450px;
+    border: 1px solid #d0d5d8;
+    border-radius: 1%;
+    padding: 10px;
+}
+.btn-custom-contact {
+    background-color: #ecd5e6 !important;
+    margin-top: 40px;
+    height: 50px;
+}
+.btn-custom-contact:hover {
+    background-color: #e8badc !important;
+}
+.shadow {
+    box-shadow: 5px 5px 5px 5px #efefef;
+    border: 1px solid rgba(236, 213, 230, 0.3);
+    padding: 40px;
+    padding-right: 492px !important;
+    width: 500px;
+    margin: auto;
+}
+.other {
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.twitter {
+    font-size: 50px;
+    color: #47796c;
+    margin: 20px;
+}
+.in {
+    font-size: 50px;
+    color: #ecd5e6 !important;
+    margin: 20px;
+}
+
+#name {
+    height: 50px;
+}
+#email {
+    margin-top: 20px;
+    height: 50px;
+}
+#message {
+    margin-top: 20px;
+    height: 170px;
+}
+#safe {
+    display: none;
+}
+.title {
+    font-weight: 700;
+}
+.icons {
+    margin-left: 350px;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .shadow {
+        box-shadow: 5px 5px 5px 5px #efefef;
+        border: 1px solid rgba(236, 213, 230, 0.3);
+        padding: 10px;
+        width: 450px;
+        margin: auto;
+        padding-right: 10px !important;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .d-block {
+        margin: auto;
+        width: 400px;
+        border: 1px solid #d0d5d8;
+        border-radius: 1%;
+        padding: 10px;
+    }
+    #message {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .icons {
+        margin-left: 260px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .icons {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+    .icons {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .twitter {
+        font-size: 35px;
+    }   
+    .in {
+        font-size: 35px;
+    }
+    .icons {
+        margin-left: 65px;
+    }
+}

@@ -1,91 +1,152 @@
-<%- include ("./partials/header") %>
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Storey Social</title>
+    <link rel="stylesheet" href="../stylesheets/navbar.css">
+    <link rel="stylesheet" href="../stylesheets/services.css">
+    <script src="/javascript/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/900beb8052.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
 
-<div class="fill pb-5">
-    <div class="container">
-        <h1 class="top-gap">Services</h1>
-        <hr>
-        <p>For every client, The Storey Social will provide a social media marketing strategy. Once you let me know what your goals are with your social media I will draft up an idea of how you can achieve these goals. How we go about achieving these goals is up to you, I offer three specific packages but can offer consultations where we can personalise what you need from The Storey Social. Please email me at thestoreysocial@hotmail.com for rates.</p>
-    </div>
-</div>
-
-<div class="container">
-
-    <div class="row service-box">
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <img class="service-icon" src="/images/Services/instaStrategy.png" alt="">
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-light navbar-expand-lg navbar-custom fixed-top">
+                <div class="container">
+                    <div class="d-flex align-items-center">
+                        <a class="navbar-brand" href="/"><img id="storeyLogo" src="/images/Navbar/ssLogo.jpg" alt=""></a>
+                        <a class="navbar-brand" href="/">
+                            <div>
+                                    <h4 id="social1">Social</h4>
+                                    <h4 id="social2">Media</h4>
+                                    <h4 id="social3">Consultant</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <strong><a class="nav-link heading" href="/">Home</a></strong>
+                                </li>
+                            <li class="nav-item">
+                            <a class="nav-link heading" href="/about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link home" href="/services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://twitter.com/Cstoreyy" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://instagram.com/christinastorey/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://linkedin.com/in/christina-storey-a0a88a19b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-4"></div>
+            </nav>
+        
+        <div class="fill pb-5">
+            <div class="container">
+                <h1 class="top-gap title">Services</h1>
+                <hr>
+                <p>For every client, The Storey Social will provide a social media marketing strategy. Once you let me know what your goals are with your social media I will draft an idea of how you can achieve these goals. How we go about achieving these goals is up to you, I offer three specific packages which can be seen below. I can also offer a bespoke service after consultation which will be tailored to your specific requirements. Please get in touch with me via the contact page for rates.</p>
             </div>
         </div>
-        <div class="line-left col-md-6">
-            <h2 class="mt-4 pl-3">The Full Insta Package</h2>
-            <h5 class="pl-3">I will take full control of your Instagram</h5>
-            <ul class="pb-3">
-                <li>Rebrand your profile</li>
-                <li>Create exciting captions posting 3 X a week</li>
-                <li>Engage in the online community by following and interacting with followers</li>
-                <li>Give ideas towards Instagram stories</li>
-                <li>Provide a weekly update on the growth of your profile</li>
-                <li>Photography and Graphics can be discussed between us</li>
-            </ul>
-        </div>
-    </div>
-    <div class="row service-box">
-        <div class="line-left col-md-6">
-            <h2 class="mt-4 pl-3">The Network</h2>
-            <h5 class="pl-3">I will take control of engaging on your Instagram</h5>
-            <ul class="pb-3">
-                <li>Comment, like and follow your community to increase followers, impressions and reach</li>
-                <li>Provide a weekly update on the growth of your profile</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <img src="/images/Services/Network.png" alt="" class="service-icon">
+        
+        <div class="container">
+        
+            <div class="row service-box">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <img class="service-icon icons-services" src="/images/Services/instaStrategy.png" alt="">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
                 </div>
-                <div class="col-md-4"></div>
-            </div>
-        </div>
-    </div>
-    <div class="row service-box">
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <img src="/images/Services/Copywriter.png" alt="" class="service-icon">
+                <div class="line-left col-md-6">
+                    <h2 class="mt-4 pl-3 title">The Full Insta Package</h2>
+                    <h5 class="pl-3">I will take full control of your Instagram</h5>
+                    <ul class="pb-3">
+                        <li>Rebrand your profile</li>
+                        <li>Create exciting captions, posting 3 X a week</li>
+                        <li>Engage in the online community by following and interacting with followers</li>
+                        <li>Give ideas towards Instagram stories</li>
+                        <li>Provide a weekly update on the growth of your profile</li>
+                        <li>Photography and Graphics can be discussed between us</li>
+                    </ul>
                 </div>
-                <div class="col-md-4"></div>
+            </div>
+            <div class="row service-box">
+                <div class="line-left col-md-6">
+                    <h2 class="mt-4 pl-3 title">The Network</h2>
+                    <h5 class="pl-3">I will take control of engaging on your Instagram</h5>
+                    <ul class="pb-3">
+                        <li>Comment, like and follow your community to increase followers, impressions and reach</li>
+                        <li>Provide a weekly update on the growth of your profile</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <img class="icons-services" src="/images/Services/Network.png" alt="" class="service-icon">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row service-box">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <img class="icons-services" src="/images/Services/Copywriter.png" alt="" class="service-icon">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+                <div id="bottom-box" class="line-left col-md-6">
+                    <h2 class="mt-4 pl-3 title">The Copywriter</h2> 
+                    <h5 class="pl-3">I will provide copy on a social media platform of your choice</h5>
+                    <ul class="pb-3">
+                        <li>Instagram captions and stories (including a hashtag strategy)</li>
+                        <li>Tweets</li>
+                        <li>Facebook posts</li>
+                        <li>Provide a weekly update on the growth of your profile</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="line-left col-md-6">
-            <h2 class="mt-4 pl-3">The Copywriter</h2> 
-            <h5 class="pl-3">I will provide copy on a social media platform of your choice</h5>
-            <ul class="pb-3">
-                <li>Instagram captions and stories (including a hashtag strategy)</li>
-                <li>Tweets</li>
-                <li>Facebook posts</li>
-                <li>Provide a weekly update on the growth of your profile</li>
-            </ul>
         </div>
-    </div>
-</div>
+        <footer id="footer" class="pl-5">
+            <p></p>
+            <p>Copyright 2020 The Storey Social. All Rights Reserved.</p>
+            <p>Design by <a class="footer-anchor" href="#">Thomas Corkhill</a></p>
+        </footer>
+      </div>
+    
 
-<div class="footer mt-5 py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-1">
-                <img id="storeyLogo" src="https://i.ibb.co/r5gLNQT/The-Storey-Social-Logo.jpg" alt="">
-            </div>
-            <div class="dol-md-5"></div>
-        </div>
-    </div>
-</div>
     
 
 

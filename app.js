@@ -2,7 +2,6 @@ let express           = require("express"),
        app            = express(),
        bodyParser     = require("body-parser"),
        path           = require("path"),
-       nodemailer     = require("nodemailer"),
        contactRoute   = require("./routes/contact"),
        indexRoutes    = require("./routes/index");
 

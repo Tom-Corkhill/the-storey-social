@@ -1,24 +1,97 @@
-<%- include ("./partials/header") %>
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Storey Social</title>
+    <link rel="stylesheet" href="../stylesheets/navbar.css">
+    <link rel="stylesheet" href="../stylesheets/aboutMe.css">
+    <script src="/javascript/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/900beb8052.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
 
-<div class="top-gap">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img class="mt-5" id="headshot" src="/images/About/Headshot.JPG" alt="">
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-7">
-                <h2>The Storey Social</h2>
-                <p>The Storey Social is a social media consultancy specialising in the publishing industry that can help you, and your books, get noticed on Social media. I grew up online. I created a fashion and lifestyle blog when I was just fourteen and have been active on all forms of social media ever since. The Storey Social wants to help you and your books stand out on social media.</p>
-                <p>The Storey Social can help with Instagram, Facebook, Twitter, LinkedIn.</p>
-                <strong><p>Head on over to the Services page to see more of what The Storey Social offer!</p></strong>
-                <h2 class="mt-5">Christina Storey</h2>
-                <p>After graduating from Queen Mary University of London with a 2.1 in English Literature in 2018 I immediately became a part time Bookseller at my local Waterstones. Within four months I was promoted to a full time Senior Bookseller. When at Waterstones I fully immersed myself into the Publishing world; I set up the bookshops Instagram and helped out with their Twitter.</p>
-                <p>I spent 2019 working and travelling in Australia and came back to England in 2020 eager to get a job in the publishing industry. However, Covid-19 has delayed this, in response to hiring being frozen I took up many different social media projects to keep myself occupied, these have now turned into The Storey Social!</p>
-                <strong><p>Head on over to the Experience page to learn more about all my different social media projects!</p></strong>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-light navbar-expand-lg navbar-custom fixed-top">
+                <div class="container">
+                    <div class="d-flex align-items-center">
+                        <a class="navbar-brand" href="/"><img id="storeyLogo" src="/images/Navbar/ssLogo.jpg" alt=""></a>
+                        <a class="navbar-brand" href="/">
+                            <div>
+                                    <h4 id="social1">Social</h4>
+                                    <h4 id="social2">Media</h4>
+                                    <h4 id="social3">Consultant</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <strong><a class="nav-link heading" href="/">Home</a></strong>
+                                </li>
+                            <li class="nav-item">
+                            <a class="nav-link home" href="/about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link heading" href="/contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://twitter.com/Cstoreyy" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://instagram.com/christinastorey/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link social-link" href="https://linkedin.com/in/christina-storey-a0a88a19b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+        <div class="top-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="mt-5" id="headshot" src="/images/About/Headshot.JPG" alt="">
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-7">
+                        <h2 class="title">The Storey Social</h2>
+                        <p>The Storey Social is a social media consultancy specialising in the publishing industry that can help you, and your books, get noticed on social media. I grew up online. I created a fashion and lifestyle blog when I was just fourteen and have been active on all forms of social media ever since. The Storey Social wants to help you and your books stand out on social media.</p>
+                        <p>The Storey Social can help with Instagram, Facebook, Twitter, LinkedIn.</p>
+                        <strong><p>Head on over to the <a class="link" href="/services">Services</a> page to see more of what The Storey Social can offer!</p></strong>
+                        <h2 class="mt-5 title">Christina Storey</h2>
+                        <p>After graduating from Queen Mary University of London with a 2.1 in English Literature in 2018 I immediately became a part time Bookseller at my local Waterstones. Within four months I was promoted to a full time Senior Bookseller. When at Waterstones I fully immersed myself in the Publishing world; I set up the bookshops Instagram and helped out with their Twitter.</p>
+                        <p>I spent 2019 working and travelling in Australia and came back to England in 2020 eager to get a job in the publishing industry. Covid-19 has delayed this. In response to the freeze on hiring I have launched my own social media projects, and these are now listed under the umbrella of The Storey Social.</p>
+                        <strong><p id="bottom-space">Head on over to the <a class="link" href="/experience">Experience</a> page to learn more about all my different social media projects!</p></strong>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+        </div>
+        <footer id="footer" class="pl-5">
+            <p></p>
+            <p>Copyright 2020 The Storey Social. All Rights Reserved.</p>
+            <p>Design by <a class="footer-anchor" href="#">Thomas Corkhill</a></p>
+        </footer>
+      </div>
+
+
 
 <%- include ("./partials/footer") %>

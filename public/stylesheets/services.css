@@ -1,0 +1,44 @@
+body {
+    font-family: 'Playfair Display', serif !important;
+}
+.line-left {
+    box-shadow: 5px 5px 5px 5px #efefef;
+    border: 1px solid rgba(236, 213, 230, 0.5);
+}
+.service-box {
+    margin-top: 45px;
+}
+.service-icon {
+    width: 100%;
+    padding-top: 50px;
+}
+.icons-services {
+    height: 200px;
+}
+.top-gap {
+    padding-top: 170px;
+}
+.title {
+    font-weight: 700;
+}
+#bottom-box {
+    margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .icons-services {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .icons-services {
+        margin-top: 40px;
+        width: 135px;
+    }
+    .service-icon {
+        margin-top: 90px !important;
+    }
+}

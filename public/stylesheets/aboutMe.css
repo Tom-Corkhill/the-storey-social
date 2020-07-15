@@ -1,0 +1,27 @@
+body {
+    font-family: 'Playfair Display', serif !important;
+}
+#headshot {
+    width: 100%;
+    border-radius: 50%;
+}
+.top-gap {
+    padding-top: 170px;
+}
+.title {
+    font-weight: 700;
+}
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #headshot {
+        margin-bottom: 25px;
+    }
+    #bottom-space {
+        margin-bottom: 25px;
+    }
+}
