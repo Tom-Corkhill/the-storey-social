@@ -109,10 +109,10 @@ body {
 
 @media only screen and (max-width: 599px) {
     .twitter {
-        font-size: 30px;
+        font-size: 25px;
     }   
     .in {
-        font-size: 30px;
+        font-size: 25px;
     }
     .icons {
         margin-left: 65px;
