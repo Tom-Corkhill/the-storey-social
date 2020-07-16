@@ -20,13 +20,13 @@ router.post("/contact/formProcess", function(req, res){
         secure: false, 
         auth: {
             user: "tjcorkhillsender@outlook.com", 
-            pass: process.env.NODEMAILER_PASS_STOREYSOCIAL_1, 
+            pass: "senttotina515", 
         },
         });
 
         let info = await transporter.sendMail({
         from: '"Automated contact email" <tjcorkhillsender@outlook.com>', 
-        to: "thestoreysocial@hotmail.com",
+        to: "tjcorkhill@gmail.com",
         subject: "Storey Social Contact Me", 
         text:  "Name: " + name + " \nEmail: " + email + " \nMessage: " + message + " \nIf there is a number here then I am spam: " + age
         });
