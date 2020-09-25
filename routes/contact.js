@@ -1,3 +1,4 @@
+require("dotenv").config();
 var express     = require("express"),
     nodemailer  = require("nodemailer"),
     router      = express.Router();
@@ -6,29 +7,39 @@ var express     = require("express"),
 // Contact route with nodemailer code
 router.get("/contact", function(req, res){
     res.render("contact");
+    
 });
 router.post("/contact/formProcess", function(req, res){
     async function main() {
-        let name = req.body.name;
-        let email = req.body.email;
-        let message = req.body.message; 
-        let age = req.body.age;
+        const output = `
+            <p>You have a new contact request</p>
+            <h3>Contact Details</h3>
+            <ul>
+                <li>Name: ${req.body.name}</li>
+                <li>Email: ${req.body.email}</li>
+            </ul>
+            <h3>Message</h3>
+            <p>${req.body.message}
+        `;
 
         let transporter = nodemailer.createTransport({
-        host: "smtp.outlook.com",
+        host: "smtp.gmail.com",
         port: 587,
         secure: false, 
         auth: {
-            user: "tjcorkhillsender@outlook.com", 
-            pass: "senttotina515", 
+            user: process.env.EMAIL, 
+            pass: process.env.PASSWORD, 
         },
+        tls:{
+            rejectUnauthorized:false
+        }
         });
 
         let info = await transporter.sendMail({
         from: '"Automated contact email" <tjcorkhillsender@outlook.com>', 
         to: "tjcorkhill@gmail.com",
-        subject: "Storey Social Contact Me", 
-        text:  "Name: " + name + " \nEmail: " + email + " \nMessage: " + message + " \nIf there is a number here then I am spam: " + age
+        subject: "Storey Social Contact Me",
+        html: output
         });
     }
     main().catch(console.error);

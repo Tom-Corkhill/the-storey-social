@@ -5,43 +5,30 @@ body {
     background-color: white !important;
     font-family: 'Playfair Display', serif !important;
 }
-#brand {
-    padding-top: 150px;
-    color: white;
-}
-#scroll-target {
-    padding-top: 125px;
-}
-.fa-sort-down {
-    font-size: 70px;
-    color: #47796c;
-}
-#contact {
-    height: 250px; 
-    background-color: #f1f2f2 !important;
-}
-.size {
-    background-color: #f1f2f2 !important;
-}
-.space {
-    height: 205px
-}
 
+/* Cover picture and scroll button */
 .main-heading {
     padding-top: 155px;
     margin-left: 80px;
 }
-.highlight {
-    box-shadow: 5px 5px 5px 5px #efefef;
-    transition: all .2s ease-in-out;
-    border-radius: 1%;
+.black {
+    font-weight: 900;
+    font-size: 36px;
 }
-.highlight:hover {
+.arrow {
+    margin-top: 400px;
+}
+.fa-chevron-circle-down {
+    font-size: 80px;
+    color: #47796c;
+    transition: all .2s ease-in-out;
+}
+.fa-chevron-circle-down:hover {
     transform: scale(1.1);
 }
-#learn-more {
-    padding-top: 400px;
-} 
+#scroll-target {
+    padding-top: 125px;
+}
 #cover {
     background-image: url('../images/Home/ssBackground.png');
     background-size: cover !important;
@@ -50,16 +37,20 @@ body {
     width: 100%;
     height: 970px;
 }
+
+/* Profile picture and Welcome */
+.title {
+    font-weight: 700;
+}
+.size {
+    background-color: #f1f2f2 !important;
+}
 #profile {
     border-radius: 50%;
     width: 90%;
 }
-.icon-box {
-    width: 100%;
-}
-#links {
-    height: 500px
-}
+
+/* About, services and experience boxes */
 .gap {
     padding-top: 110px;
 }
@@ -70,26 +61,19 @@ body {
     color: black;
     text-decoration: none !important; 
 }
-.fa-chevron-circle-down {
-    font-size: 80px;
-    color: #47796c;
-    transition: all .2s ease-in-out;
+.icon-box {
+    width: 100%;
 }
-.fa-chevron-circle-down:hover {
+.highlight {
+    box-shadow: 5px 5px 5px 5px #efefef;
+    transition: all .2s ease-in-out;
+    border-radius: 1%;
+}
+.highlight:hover {
     transform: scale(1.1);
 }
-.top-gap {
-    padding-top: 170px;
-}
-.black {
-    font-weight: 900;
-    font-size: 36px;
-}
-.arrow {
-    margin-top: 400px;
-}
-.title {
-    font-weight: 700;
+#links {
+    height: 500px
 }
 
 

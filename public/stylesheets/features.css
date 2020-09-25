@@ -1,6 +1,10 @@
 body {
     font-family: 'Playfair Display', serif !important;
 }
+hr {
+    width: 15%;
+}
+
 .top-gap {
     padding-top: 170px;
 }
@@ -23,9 +27,7 @@ body {
 .box:hover {
     background-color: #efefef;
 }
-hr {
-    width: 15%;
-}
+
 
 
 @media only screen and (max-width: 991px) {

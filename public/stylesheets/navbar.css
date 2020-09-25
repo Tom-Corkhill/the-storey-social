@@ -6,24 +6,6 @@
 .custom-toggler.navbar-toggler {
   border-color: #5e9788 !important;
 }
-#social1 {
-  color: white;
-  font-size: 22px;
-  margin: 0;
-  transition: 0.4s;
-}
-#social2 {
-  color: white;
-  font-size: 22px;
-  margin: 0;
-  transition: 0.4s;
-}
-#social3 {
-  color: white;
-  font-size: 22px;
-  margin: 0;
-  transition: 0.4s;
-}
 .home {
   color: #47796c !important;
   font-size: 18px; 
@@ -48,6 +30,24 @@
 .fab:hover {
   color: #5e9788;
 }
+#social1 {
+  color: white;
+  font-size: 22px;
+  margin: 0;
+  transition: 0.4s;
+}
+#social2 {
+  color: white;
+  font-size: 22px;
+  margin: 0;
+  transition: 0.4s;
+}
+#social3 {
+  color: white;
+  font-size: 22px;
+  margin: 0;
+  transition: 0.4s;
+}
 #storeyLogo {
   height: 95px;
   width: 95px;
@@ -59,6 +59,16 @@
 /* Footer css */
 body {
   margin-bottom:62px;
+}
+.footer-anchor {
+  color: white;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 60px;    /* Footer height */
 }
 #footer {
   background-color: black !important;
@@ -72,14 +82,4 @@ body {
   bottom: 0;
   width: 100%;
   height: 60px;
-}
-.footer-anchor {
-  color: white;
-}
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-#content-wrap {
-  padding-bottom: 60px;    /* Footer height */
 }

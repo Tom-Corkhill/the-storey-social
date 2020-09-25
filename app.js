@@ -1,4 +1,4 @@
-let express           = require("express"),
+const express           = require("express"),
        app            = express(),
        bodyParser     = require("body-parser"),
        path           = require("path"),
@@ -16,6 +16,4 @@ app.use(indexRoutes);
 app.use(contactRoute);
 
 
-app.listen(process.env.PORT || 5000);
-
-// app.listen(3000, function(req, res){});
+app.listen(process.env.PORT || 3000);

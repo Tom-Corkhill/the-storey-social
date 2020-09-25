@@ -1,6 +1,7 @@
 body {
     font-family: 'Playfair Display', serif !important;
 }
+
 .top-gap {
     padding-top: 170px;
 }
@@ -41,6 +42,13 @@ body {
     color: #ecd5e6 !important;
     margin: 20px;
 }
+.title {
+    font-weight: 700;
+}
+.icons {
+    margin-left: 350px;
+    height: 150px;
+}
 
 #name {
     height: 50px;
@@ -55,13 +63,6 @@ body {
 }
 #safe {
     display: none;
-}
-.title {
-    font-weight: 700;
-}
-.icons {
-    margin-left: 350px;
-    height: 150px;
 }
 #email-link {
     color: black;
